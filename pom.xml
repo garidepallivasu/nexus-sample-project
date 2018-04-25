@@ -4,7 +4,7 @@
 
     <groupId>com.carlocayos</groupId>
     <artifactId>nexus-sample-project</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>nexus-sample-project</name>
@@ -21,8 +21,8 @@
         <url>https://github.com/carlocayos/nexus-sample-project</url>
         <connection>scm:git:git://github.com/carlocayos/nexus-sample-project.git</connection>
         <developerConnection>scm:git:git@github.com:carlocayos/nexus-sample-project.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <distributionManagement>
         <repository>
@@ -63,6 +63,18 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m5.1</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.jcraft</groupId>
+                        <artifactId>jsch</artifactId>
+                        <version>0.1.54</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
