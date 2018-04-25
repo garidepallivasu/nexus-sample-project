@@ -18,6 +18,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <scm>
+        <url>https://github.com/carlocayos/nexus-sample-project</url>
+        <!--<connection>scm:git:git://github.com/kevinsawicki/github-maven-example.git</connection>-->
+        <connection>scm:git:git://github.com/carlocayos/nexus-sample-project.git</connection>
+        <developerConnection>scm:git:git@github.com:carlocayos/nexus-sample-project.git</developerConnection>
+    </scm>
+
     <distributionManagement>
         <repository>
             <uniqueVersion>false</uniqueVersion>
