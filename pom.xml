@@ -17,12 +17,12 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
-    <scm>
-        <url>https://github.com/carlocayos/nexus-sample-project</url>
-        <connection>scm:git:git://github.com/carlocayos/nexus-sample-project.git</connection>
-        <developerConnection>scm:git:git@github.com:carlocayos/nexus-sample-project.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
+    <!--<scm>-->
+        <!--<url>https://github.com/carlocayos/nexus-sample-project</url>-->
+        <!--<connection>scm:git:git://github.com/carlocayos/nexus-sample-project.git</connection>-->
+        <!--<developerConnection>scm:git:git@github.com:carlocayos/nexus-sample-project.git</developerConnection>-->
+        <!--<tag>HEAD</tag>-->
+    <!--</scm>-->
 
     <distributionManagement>
         <repository>
