@@ -30,13 +30,13 @@
             <uniqueVersion>false</uniqueVersion>
             <id>proximax nexus</id>
             <name>proximax nexus release</name>
-            <url>http://52.53.172.67:8081/repository/maven-releases/</url>
+            <url>http://54.215.228.189:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <uniqueVersion>true</uniqueVersion>
             <id>proximax nexus</id>
             <name>proximax nexus snapshot</name>
-            <url>http://52.53.172.67:8081/repository/maven-snapshots/</url>
+            <url>http://54.215.228.189:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
